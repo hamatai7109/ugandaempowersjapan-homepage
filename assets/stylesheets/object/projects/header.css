@@ -1,0 +1,80 @@
+@charset "UTF-8";
+.header {
+  /* ナビゲーションボタン（開く） */
+}
+.header .header__nav {
+  position: fixed;
+  top: 100%;
+  left: 100%;
+  width: 100%;
+  height: 100vh;
+  background: #ffc446;
+  color: #ffffff;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 10;
+  transition: all 3s linear;
+}
+.header .header__nav .header__navList {
+  list-style: none;
+}
+.header .header__nav .header__navList li:not(:last-child) {
+  margin-bottom: 30px;
+}
+.header .header__nav .header__navList a {
+  color: #ffffff;
+}
+.header .header__button {
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  padding: 0;
+  outline: none;
+  border: none;
+  background: none;
+  width: 50px;
+  height: 20px;
+  cursor: pointer;
+}
+.header .header__button span, .header .header__button::before, .header .header__button::after {
+  content: "";
+  display: block;
+  height: 1px;
+  background-color: #333333;
+  transition: all 0.3s linear;
+}
+.header .header__button::before {
+  transform: translateY(-15px);
+}
+.header .header__button::after {
+  transform: translateY(15px);
+}
+
+.isHeaderOpen {
+  /* ナビゲーションメニュー 開いた時*/
+  /* ナビゲーションボタン（閉じる） */
+}
+.isHeaderOpen .header__nav {
+  top: 0;
+  left: 0;
+  visibility: visible;
+  opacity: 0.99;
+}
+.isHeaderOpen .header__button {
+  z-index: 100;
+}
+.isHeaderOpen .header__button span {
+  display: none;
+}
+.isHeaderOpen .header__button::before {
+  transform: rotate(-45deg);
+  box-shadow: none;
+}
+.isHeaderOpen .header__button::after {
+  transform: rotate(45deg);
+  box-shadow: none;
+}/*# sourceMappingURL=header.css.map */

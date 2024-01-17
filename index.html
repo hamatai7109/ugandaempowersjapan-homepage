@@ -23,14 +23,14 @@
   </head>
   <body>
     <div class="l-container">
-      <header class="header">
-        <div class="header__logo">
+      <header class="header" id="header">
+        <!-- <div class="header__logo">
           <img
             src="assets/images/common/logo.jpg"
             alt="ロゴ"
             class="header__logo--img"
           />
-        </div>
+        </div> -->
         <nav class="header__nav">
           <ul class="header__navList">
             <li class="header__navList--list">
@@ -50,7 +50,9 @@
             </li>
           </ul>
         </nav>
-        <button type="button" id="hamburgerBtn" class="header__button"></button>
+        <button type="button" id="hamburgerBtn" class="header__button">
+          <span></span>
+        </button>
       </header>
       <section class="hero">
         <div class="hero__info">
@@ -239,5 +241,6 @@
       src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
     ></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script src="/assets/javascripts/lib/script.js"></script>
   </body>
 </html>
