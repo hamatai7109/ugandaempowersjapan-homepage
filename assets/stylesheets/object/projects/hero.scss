@@ -11,32 +11,42 @@
     text-align: center;
     padding: 100px;
     font-family: "Klee One", cursive;
-    .hero__info--title {
-      margin-top: 50px;
-      font-size: 4.5rem;
-      line-height: 1.2;
-    }
-    .hero__info--subtitle {
-      margin-top: 50px;
-    }
-    .hero__info--donation {
-      margin-top: 30px;
-    }
-    .hero__info--donationBtn {
-      margin: 0 auto;
-      display: block;
-      padding: 10px 20px;
-      width: 50%;
-      height: 50px;
-      border-radius: 20px;
-      background-color: #ffde59;
-      font-weight: bold;
-      font-size: 1.2rem;
-      cursor: pointer;
-      transition: all 0.3s linear;
+    position: relative;
+    .hero__infoBox {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50% -50%);
+      // firefoxなどのwebブラウザ対応
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      .hero__info--title {
+        margin-top: 50px;
+        font-size: 4.5rem;
+        line-height: 1.2;
+      }
+      .hero__info--subtitle {
+        margin-top: 50px;
+      }
+      .hero__info--donation {
+        margin-top: 30px;
+      }
+      .hero__info--donationBtn {
+        margin: 0 auto;
+        display: block;
+        padding: 10px 20px;
+        width: 50%;
+        height: 50px;
+        border-radius: 20px;
+        background-color: #ffde59;
+        font-weight: bold;
+        font-size: 1.2rem;
+        cursor: pointer;
+        transition: all 0.3s linear;
 
-      &:hover {
-        opacity: 0.7;
+        &:hover {
+          opacity: 0.7;
+        }
       }
     }
   }

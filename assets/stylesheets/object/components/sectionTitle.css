@@ -1,0 +1,12 @@
+@charset "UTF-8";
+.sectionTitle {
+  padding: 20px 60px;
+  width: 20%;
+}
+.sectionTitle .sectionTitle__text {
+  font-size: 4rem;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: normal; /* 文字の太さ調整 */
+  border-bottom: solid 4px rgba(76, 175, 80, 0.6); /* 線指定 */
+  border-radius: 0px 0px 160px 180px/0px 0px 20px 0px; /* 角丸指定 */
+}/*# sourceMappingURL=sectionTitle.css.map */
