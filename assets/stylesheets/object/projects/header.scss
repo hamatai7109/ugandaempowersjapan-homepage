@@ -2,7 +2,7 @@
   // ナビゲーションメニュー
   .header__nav {
     position: fixed;
-    top: 100%;
+    top: 0;
     left: 100%;
     width: 100%;
     height: 100vh;
@@ -15,7 +15,7 @@
     visibility: hidden;
     opacity: 0;
     z-index: 10;
-    transition: all 3s linear;
+    transition: all 0.2s linear;
 
     .header__navList {
       list-style: none;
@@ -39,7 +39,7 @@
     border: none;
     background: none;
     width: 50px;
-    height: 20px;
+    height: 40px;
     cursor: pointer;
 
     span,
@@ -47,8 +47,8 @@
     &::after {
       content: "";
       display: block;
-      height: 1px;
-      background-color: #333333;
+      height: 2px;
+      background-color: #5c5c5c;
       transition: all 0.3s linear;
     }
     &::before {
@@ -63,7 +63,6 @@
 .isHeaderOpen {
   /* ナビゲーションメニュー 開いた時*/
   .header__nav {
-    top: 0;
     left: 0;
     visibility: visible;
     opacity: 0.99;

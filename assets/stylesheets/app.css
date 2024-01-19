@@ -2,15 +2,11 @@
 // Foundation
 // ==========================================================================*/
 
-@import 'foundation/reset.css';
-@import 'foundation/base.css';
-@import 'foundation/var.css';
-@import 'foundation/font.css';
+@import "foundation/reset.css";
 
 /*// ==========================================================================
 // Layout
 // ==========================================================================*/
-
 
 /*// ==========================================================================
 // Object
@@ -20,16 +16,20 @@
 // Component
 // -----------------------------------------------------------------*/
 
-
 /*// -----------------------------------------------------------------
 // Project
 // -----------------------------------------------------------------*/
 
-@import 'object/projects/index.css';
-@import 'object/projects/header.css';
+@import "object/projects/index.css";
+@import "object/projects/header.css";
+@import "object/projects/hero.css";
+@import "object/projects/news.css";
+@import "object/projects/about.css";
+@import "object/projects/service.css";
+@import "object/projects/contact.css";
 
 /*// -----------------------------------------------------------------
 // Utility
 // -----------------------------------------------------------------*/
 
-@import 'utilities/utility.css';
+@import "utilities/utility.css";

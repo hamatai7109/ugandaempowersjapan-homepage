@@ -49,6 +49,14 @@ ol[class] {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
 /* A elements that don't have a class get default styles */
 /* classを持たない要素はデフォルトのスタイルを取得 */
 a:not([class]) {
@@ -60,7 +68,7 @@ a:not([class]) {
 /* img要素の扱いを簡単にする */
 img {
   max-width: 100%;
-  display: block;
+  height: auto;
 }
 
 /* Natural flow and rhythm in articles by default */
@@ -79,12 +87,4 @@ select {
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */
-/* 見たくない人用に、すべてのアニメーションとトランジションを削除 */
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
-    scroll-behavior: auto !important;
-  }
-}/*# sourceMappingURL=reset.css.map */
+/* 見たくない人用に、すべてのアニメーションとトランジションを削除 *//*# sourceMappingURL=reset.css.map */
