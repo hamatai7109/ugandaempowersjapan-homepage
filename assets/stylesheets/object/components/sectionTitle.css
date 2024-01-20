@@ -1,12 +1,20 @@
 @charset "UTF-8";
 .sectionTitle {
   padding: 20px 60px;
-  width: 20%;
+  display: inline-block;
 }
 .sectionTitle .sectionTitle__text {
   font-size: 4rem;
   font-family: "Courier New", Courier, monospace;
   font-weight: normal; /* 文字の太さ調整 */
-  border-bottom: solid 4px rgba(76, 175, 80, 0.6); /* 線指定 */
-  border-radius: 0px 0px 160px 180px/0px 0px 20px 0px; /* 角丸指定 */
+  position: relative;
+}
+.sectionTitle .sectionTitle__text:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  height: 4px;
+  width: 110%;
+  background-color: rgba(76, 175, 80, 0.6);
 }/*# sourceMappingURL=sectionTitle.css.map */

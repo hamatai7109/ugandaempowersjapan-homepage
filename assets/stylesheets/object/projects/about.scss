@@ -13,3 +13,36 @@ $breakpoints: (
 }
 
 // About
+.about__slider {
+  margin: 0 auto;
+  padding: 30px;
+  width: 90%;
+  display: flex;
+  .about__info {
+    padding: 20px;
+    .about__imageBox {
+      height: 300px;
+      .about__imageBox-img {
+        border-radius: 25px;
+      }
+    }
+    .about__info--title,
+    .about__info--text {
+      margin-top: 20px;
+    }
+    .about__info--title {
+      padding-bottom: 5px;
+      display: inline-block;
+      position: relative;
+      &::after {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        content: "";
+        height: 5px;
+        width: 100%;
+        background-color: rgb(255, 255, 139, 0.5);
+      }
+    }
+  }
+}

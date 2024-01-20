@@ -1,1 +1,33 @@
-/*# sourceMappingURL=about.css.map */
+.about__slider {
+  margin: 0 auto;
+  padding: 30px;
+  width: 90%;
+  display: flex;
+}
+.about__slider .about__info {
+  padding: 20px;
+}
+.about__slider .about__info .about__imageBox {
+  height: 300px;
+}
+.about__slider .about__info .about__imageBox .about__imageBox-img {
+  border-radius: 25px;
+}
+.about__slider .about__info .about__info--title,
+.about__slider .about__info .about__info--text {
+  margin-top: 20px;
+}
+.about__slider .about__info .about__info--title {
+  padding-bottom: 5px;
+  display: inline-block;
+  position: relative;
+}
+.about__slider .about__info .about__info--title::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  height: 5px;
+  width: 100%;
+  background-color: rgba(255, 255, 139, 0.5);
+}/*# sourceMappingURL=about.css.map */
