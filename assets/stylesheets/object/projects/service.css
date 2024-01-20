@@ -1,0 +1,39 @@
+.service__box {
+  margin: 0 auto;
+  width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.service__box .service__item {
+  padding: 30px;
+  width: 50%;
+  text-align: center;
+  position: relative;
+}
+.service__box .service__item .service__item--img {
+  cursor: pointer;
+  width: 60%;
+  transition: all 0.3s linear;
+}
+.service__box .service__item .service__item--img:hover {
+  opacity: 0.8;
+}
+.service__box .service__item i,
+.service__box .service__item .service__title {
+  position: absolute;
+  left: 52%;
+  transform: translate(-50% -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.service__box .service__item .service__title {
+  top: 50%;
+  font-size: 1.5rem;
+}
+.service__box .service__item i {
+  top: 30%;
+  font-size: 3rem;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 20px;
+}/*# sourceMappingURL=service.css.map */
