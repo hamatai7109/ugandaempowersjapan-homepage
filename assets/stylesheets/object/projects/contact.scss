@@ -1,0 +1,13 @@
+.contactBox {
+  margin-top: 50px;
+  text-align: center;
+  .contact__text {
+    font-size: 1.8rem;
+    &:not(:first-of-type) {
+      margin-top: 30px;
+    }
+    .contact__text--link {
+      text-decoration: underline;
+    }
+  }
+}
