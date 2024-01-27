@@ -1,10 +1,10 @@
 .contactBox {
-  margin-top: 50px;
+  padding: 100px 0;
   text-align: center;
   .contact__text {
     font-size: 1.8rem;
     &:not(:first-of-type) {
-      margin-top: 30px;
+      margin-top: 20px;
     }
     .contact__text--link {
       text-decoration: underline;
