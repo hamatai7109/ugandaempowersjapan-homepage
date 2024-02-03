@@ -1,5 +1,6 @@
 .l-main {
   background-image: url(../../images/common/background.png);
+  background-size: contain;
   padding-top: 50px;
 }
 .l-main section:not(:first-of-type) {

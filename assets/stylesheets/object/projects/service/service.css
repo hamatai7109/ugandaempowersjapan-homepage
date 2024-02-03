@@ -17,7 +17,7 @@
 .service__box .service__item .service__title {
   position: absolute;
   left: 52%;
-  transform: translate(-50% -50%);
+  transform: translate(-50%, -50%);
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
 }
@@ -52,4 +52,4 @@
 }
 .service__linkBox .service__link:hover {
   opacity: 0.7;
-}/*# sourceMappingURL=service.css.map */
+} /*# sourceMappingURL=service.css.map */

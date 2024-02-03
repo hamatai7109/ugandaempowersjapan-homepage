@@ -18,13 +18,13 @@
 // Project
 // -----------------------------------------------------------------*/
 
-@import "object/projects/header.css";
-@import "object/projects/hero.css";
-@import "object/projects/news.css";
-@import "object/projects/about.css";
-@import "object/projects/service.css";
-@import "object/projects/contact.css";
-@import "object/projects/footer.css";
+@import "object/projects/header/header.css";
+@import "object/projects/hero/hero.css";
+@import "object/projects/news/news.css";
+@import "object/projects/about/about.css";
+@import "object/projects/service/service.css";
+@import "object/projects/contact/contact.css";
+@import "object/projects/footer/footer.css";
 
 /*// -----------------------------------------------------------------
 // Utility
